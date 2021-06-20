@@ -1,0 +1,104 @@
+h1{
+	text-align:center;
+}
+img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin:0px;
+    opacity:0.7;
+}
+table{
+	display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	margin:0 70px;
+}
+th{
+	/*background-color:#9ACD32;*/
+	background-color:darkgreen;
+	color: #FFFFFF;
+	line-height: 30px;
+	height: 30px;
+	border-radius: 10px 10px 0 0;
+	width: 150px;
+	padding: 8px;
+	border-bottom: 2px solid #339933;
+	font-size: larger;
+}
+tr td{
+	text-align: center;
+}
+th:first-child ,tr td:first-child{
+	text-align: left;
+	padding-left: 2%;
+	width: 45px;
+}
+td{
+	background-color: #90EE90;
+	height: 28px;
+	width: 150px;
+	line-height: 10px;
+	font-size: large;
+	padding: 7px ;
+
+}
+tr td{
+	opacity: 0.8;
+}
+tbody tr:hover{
+	opacity: 1;
+	height:50px;
+	background-color:darkgreen;
+	color:red;
+}
+.home{
+	width: 4%;
+	height: 4%;
+	float: right;
+}
+.view{
+	border-radius: 4px;
+    border: 2px solid crimson;
+    background-color: transparent;
+    color:crimson;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4px;
+	padding-bottom: 4px;
+}
+.view:hover{
+	color: white;
+	background-color: crimson;/*or orange*/
+}
+.transferto{
+	display:flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+
+	padding: 16px;
+    font-size: large;
+    background-color:teal;
+    cursor:pointer;
+    border: 2px solid black;
+    border-radius: 12px;
+    width:200px;
+    color: white;
+    opacity:0.7;
+    font-size: large;
+    margin:20px auto;
+	box-shadow:inset 0px -3px 7px 0px #29bbff;
+}
+.transferto:hover{
+	background-color:green;
+    opacity:1;
+    height: 65px;
+    width:220px;
+	color:black;
+}
+a{
+	text-decoration: none;
+}

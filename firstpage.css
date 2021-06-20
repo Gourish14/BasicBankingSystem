@@ -1,0 +1,54 @@
+img{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin:0px;
+    
+}
+div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size:xx-large;
+}
+.go{
+    background-color: teal;
+    cursor:pointer;
+    padding:10px;
+    border : 2px solid black;
+    border-radius: 12px;
+    width:100px;
+    color: white;
+    opacity:0.7;
+    font-size: large;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+}
+.go:hover{
+    background-color:green;
+    opacity:1;
+    height: 50px;
+    width:120px;
+    color:black;
+}
+.secondpage{
+    padding: 16px;
+    font-size: large;
+    background-color:teal;
+    cursor:pointer;
+    border: 2px solid black;
+    border-radius: 12px;
+    width:200px;
+    color: white;
+    opacity:0.7;
+    font-size: large;
+    margin:20px auto;
+    box-shadow:inset 0px -3px 7px 0px #29bbff;
+}
+.secondpage:hover{
+    background-color:green;
+    opacity:1;
+    height: 65px;
+    width:220px;
+    color:black;
+}
