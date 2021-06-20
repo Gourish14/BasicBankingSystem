@@ -5,7 +5,7 @@ $username="root";
 $password="";
 $db="bank";
 $con=mysqli_connect($server,$username,$password,$db);
-if(! $con)
+if(! $con) 
 {
     die ("Connection failed due to".mysqli_connect_error());
 }
